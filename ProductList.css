@@ -1,0 +1,20 @@
+
+
+  .ProductList-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 100px;
+    padding: 20px;
+    justify-items: center;
+    background-color: #fffdfd;
+  }
+  
+  /* Optional: styling for the title */
+  .list-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #d67c33;
+    font-size: 28px;
+    font-weight: 600;
+  }
+  

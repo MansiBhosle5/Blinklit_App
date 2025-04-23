@@ -1,0 +1,66 @@
+
+  .login-box {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    background: black;
+    border-radius: 10px;
+    animation: blink-border 1s infinite;
+    box-shadow: 0 0 20px yellow;
+    text-align: center;
+    color: yellow;
+    background: linear-gradient(135deg, #333, #222);
+   
+    font-family: sans-serif;
+  }
+  
+  .login-box h2 {
+    margin-bottom: 20px;
+    color: yellow;
+    animation: pulse-text 1.5s infinite;
+  }
+  
+  .login-box input {
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid yellow;
+    background: #222;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .login-box input::placeholder {
+    color: #bbb;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    background: yellow;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .login-box button:hover {
+    background: black;
+    color: yellow;
+    border: 2px solid yellow;
+  }
+  
+  @keyframes blink-border {
+    0%   { box-shadow: 0 0 10px yellow; border: 2px solid yellow; }
+    50%  { box-shadow: 0 0 10px black; border: 2px solid black; }
+    100% { box-shadow: 0 0 10px yellow; border: 2px solid yellow; }
+  }
+  
+  @keyframes pulse-text {
+    0%   { opacity: 1; }
+    50%  { opacity: 0.6; }
+    100% { opacity: 1; }
+  }
+  

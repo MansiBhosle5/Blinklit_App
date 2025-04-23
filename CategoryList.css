@@ -1,0 +1,11 @@
+.CategoryList-container {
+    display: flex;
+    align-items: center;        /* Vertically center items */
+    justify-content: center;    /* Horizontally center items */
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;                /* Or a fixed width like 1000px */
+    height: 200px;
+    margin-top: 50px;
+  }
+  
